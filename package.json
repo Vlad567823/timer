@@ -1,0 +1,23 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "timers.js",
+  "scripts": {
+   "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./timer/",
+    "deploy": "parcel build index.html --public-url ./timer/ && gh-pages -d dist",
+    "deploy:gh-pages": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad567823/timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad567823/timer/issues"
+  },
+  "homepage": "https://github.com/Vlad567823/timer#readme"
+}
